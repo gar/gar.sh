@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog TailwindCSS`,
-    author: `Kyle Mathews`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-tailwindcss-demo.netlify.com/`,
+    title: `./gar.sh`,
+    author: `Gar Morley`,
+    description: `A blog about code`,
+    siteUrl: `https://gar.sh`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `garmorley`,
     },
   },
   plugins: [
@@ -50,15 +50,15 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-72803447-1`,
       },
     },
     `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `./gar.sh`,
+        short_name: `A blog about code`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
